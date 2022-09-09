@@ -1,0 +1,67 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.modind {
+  margin-bottom: 50px;
+}
+
+.tron {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.tron {
+  padding: 30px 65px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #3f2aff;
+}
+
+.download {
+  font-weight: 700;
+  font-size: 18px;
+  color: #3f2aff;
+}
+
+.download {
+  padding-left: 30px  ;
+  background-image: url(https://cdn.discordapp.com/attachments/479991620737957898/1008639193670488125/download.png);
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
